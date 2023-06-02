@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="logoFL/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
+    <script src="splide-4.1.3/dist/js/splide.min.js"></script>
+
+    <title>Flor de Liz</title>
+
+</head>
+
+<body>
+
+    <!-- INICIO DO CABEÇALHO -->
+
+    <header id="cabecalho">
+
+        <div id="logo">
+             <h1>Flor de Liz</h1>
+             <span>Studio de Jogos</span>
+        </div>
+       
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Loja</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- FIM DO CABEÇALHO -->
+
+
+    <main id="container"> <!-- CONTENEDOR PRINCIPAL-->
+    
+    <!-- ------ SLIDER ------ -->
+    <div id="slide_container">
+        
+        <section class="splide" aria-label="Basic Structure Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide"><img src="jogos/jogo1.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="jogos/jogo2.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="jogos/jogo3.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="jogos/jogo4.jpg" alt=""></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+    
+
+    <!-- FIM DO SLIDER -->
+
+      <!-- NOVIDADES -->
+    
+    <section id="novidades">
+        <h2>Novidades</h2>
+       
+        <div id="grid_novidades">
+
+            <article class="cards">img</article>
+            <article class="cards">img</article>
+            <article class="cards">img</article>
+            <article class="cards">img</article>
+            <article class="cards">img</article>
+
+        </div>
+
+    </section>
+
+    <!-- FIM DE NOVIDADES -->
+
+    </main>
+    
+    <!-- FOOTER -->
+    <footer id="footer">
+        <p>&copy Designed by <a href="#">Grupo10</a></p>
+    </footer>
+
+    <!-- SCRIPT SLIDER -->
+    <script>
+        var splide = new Splide( '.splide' );
+        splide.mount();
+    </script>
+
+
+
+</body>
+
+</html>
